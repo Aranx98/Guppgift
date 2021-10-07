@@ -9,7 +9,6 @@
 .position-relative { position: relative !important;} /*För att vara säkra på att dessa implementeras/läggs till*/
 .position-absolute { position: absolute !important;}
 
-
 /*************
 *** Margin ***
 *************/
@@ -36,9 +35,6 @@
 .mt-15, .my-15 {margin-top: var(--distance-15);} 
 /* Ökar med 0.25 med varje steg*/
 
-
-
-
 /**************
 *** Padding ***
 **************/
@@ -54,10 +50,23 @@
 *****************/
 .text-decoration-none {text-decoration: none; }
 
+.text-size-xxs {font-size: var(--display-xxs); }
+.text-size-xs {font-size: var(--display-xs); }
+.text-size-sm {font-size: var(--display-sm); }
+.text-size-md {font-size: var(--display-md); }
+.text-size-lg {font-size: var(--display-lg); }
+.text-size-xl {font-size: var(--display-xl); }
+.text-size-xxl {font-size: var(--display-xxl); }
+
+.lh-sm{ line-height: var(--line-height-sm);}
+.lh-md{line-height: var(--line-height-md);}
+.lh-lg{line-height:var(--line-height-lg)}
+
+
 /*************
 *** Circle ***
 *************/
-.circle {border-radius: 100; }
+.circle {border-radius: 100%; }
 
 /**************
 *** Shadows ***
@@ -67,17 +76,24 @@
 /************
 ***Buttons***
 ************/
-nav div a:not(first-child) {margin-left: var(--distance-12); }
+nav div a:not(:first-child) {margin-left: var(--distance-12); }
 .icon-badge {
     top: -8px;
     right: -8px;
     padding: var(--distance-1) var(--distance-3);
 }
 
+/*************
+*** Borders ***
+**************/
+.borders-radius {border-radius: var(--border-radius-sm); }
+.border-small-white {border: var(--border-xs-white); }
+
+
 /*****************
 *** Colored Bar***
 *****************/
-.bar-height{ height: 0.3rem;}
+.bar-height{ height: .3rem;}
 
 /*************
 *** Images ***
