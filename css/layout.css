@@ -3,6 +3,13 @@
 **************/
 .max-width {max-width: 192rem;}
 
+/***************
+*** Position ***
+***************/
+.position-relative { position: relative !important;} /*För att vara säkra på att dessa implementeras/läggs till*/
+.position-absolute { position: absolute !important;}
+
+
 /*************
 *** Margin ***
 *************/
@@ -45,23 +52,27 @@
 /*****************
 *** Typography ***
 *****************/
-.text-decoration-none {text-decoration: none;}
+.text-decoration-none {text-decoration: none; }
 
 /*************
 *** Circle ***
 *************/
-.circle {border-radius: 100;}
+.circle {border-radius: 100; }
 
 /**************
 *** Shadows ***
 **************/
+.shadow-sm {box-shadow: var(--shadow-small-light); }
 
-.shadow-sm {box-shadow: var(--shadow-small-light);}
-
-
-/***********
-Buttons
-
+/************
+***Buttons***
+************/
+nav div a:not(first-child) {margin-left: var(--distance-12); }
+.icon-badge {
+    top: -8px;
+    right: -8px;
+    padding: var(--distance-1) var(--distance-3);
+}
 
 /*****************
 *** Colored Bar***
