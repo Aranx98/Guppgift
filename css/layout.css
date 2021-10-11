@@ -1,13 +1,19 @@
 /**************
 *** Widths ***
 **************/
-.max-width {max-width: 192rem;}
+.max-width {max-width: 192rem; }
 
 /***************
 *** Position ***
 ***************/
 .position-relative { position: relative !important;} /*För att vara säkra på att dessa implementeras/läggs till*/
 .position-absolute { position: absolute !important;}
+.overflow-hidden { overflow: hidden;}
+.centerXY {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*************
 *** Margin ***
@@ -55,6 +61,7 @@
 *** Typography ***
 *****************/
 .text-decoration-none {text-decoration: none; }
+.text-center { text-align: center; }
 
 .text-size-xxs {font-size: var(--display-xxs); }
 .text-size-xs {font-size: var(--display-xs); }
@@ -105,3 +112,20 @@ nav div a:not(:first-child) {margin-left: var(--distance-12); }
 *** Images ***
 *************/
 .logo-width { max-width: 13rem;}
+
+/****************
+*** Slideshow ***
+****************/
+.slider-width { width: 400%; /* 100% per image*/ }
+.slider-container {width: 25%; /* Display first of 4 images */}
+.slider-image { width: 100%; object-fit: cover; }
+/*.slider-animation {animation: 30s slider-keyframes infinite; } */
+@keyframes slider-keyframes {
+    0% { left: 0%; } /* Bild 1*/
+    15% { left: -100%; } /* Bild 2*/
+    30% { left: -200%; } /* Bild 3*/
+    45% { left: -300%; } /* Bild 4*/
+    60% { left: -200%; } /* Bild 5*/
+    75% { left: -100%; } /* Bild 6*/
+    100% { left: 0%; }
+}
