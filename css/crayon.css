@@ -1,5 +1,3 @@
-
-
 :root {
     --crayon-height: 1.5rem;
     --crayon-width: 6rem;
@@ -8,8 +6,6 @@
     --crayon-line-color: #237449;
     --crayon-shadow-color: rgba(0, 0, 0, 0.3);
 }
-
-
 
 
 .crayon {
