@@ -33,14 +33,16 @@
     var(--crayon-line-color) 17%, transparent 17%),
 
     linear-gradient(to right, 
-    transparent 20%, var(--crayon-line-color) 20%, var(--crayon-line-color) 23%, transparent 23%), 
+    transparent 20%, var(--crayon-line-color) 20%, 
+    var(--crayon-line-color) 23%, transparent 23%), 
 
     /* Vertical lines right side */
-    linear-gradient(to right, transparent 78%, 
-    var(--crayon-line-color) 78%, var(--crayon-line-color) 81%, transparent 81%), 
+    linear-gradient(to right, transparent 78%, var(--crayon-line-color) 78%, 
+    var(--crayon-line-color) 81%, transparent 81%), 
 
     linear-gradient(to right, 
-    transparent 84%, var(--crayon-line-color) 84%, var(--crayon-line-color) 87%, transparent 87%), 
+    transparent 84%, var(--crayon-line-color) 84%, 
+    var(--crayon-line-color) 87%, transparent 87%), 
     
     /* Crayon paper*/
     linear-gradient(to right, 

@@ -59,6 +59,8 @@
 .p-12 {padding: var(--distance-12)}
 .p-15 {padding: var(--distance-15)}
 
+.pr-12 {padding: var(--distance-12)}
+
 /*****************
 *** Typography ***
 *****************/
