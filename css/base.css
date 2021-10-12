@@ -70,7 +70,7 @@
     --border-lg: .4rem solid var(--color-white);
 
     --border-radius-sm: .25rem; 
-    --border-success: .2rem solid var(--color-success);
+    --border-success: .2rem solid var(--border-color-success);
     --border-transparent: .1rem solid var(--color-transparent);
 }
 
