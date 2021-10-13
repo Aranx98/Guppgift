@@ -56,7 +56,7 @@
 --distance-16: 4rem;
 
 /*****************
-    *** Shadow ***
+    *** Shadows ***
 *****************/
     --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
     --shadow-small-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
@@ -64,14 +64,14 @@
 /*****************
    *** Borders ***
 ******************/
-    --border-xswhite: 0.1rem solid var(--color-white);
+    --border-xs-white: 0.1rem solid var(--color-white);
     --border-xs: .1rem solid var(--color-light);
     --border-sm: .2rem solid var(--color-light);
     --border-lg: .4rem solid var(--color-white);
 
     --border-radius-sm: .25rem; 
     --border-success: .2rem solid var(--border-color-success);
-    --border-transparent: .1rem solid var(--color-transparent);
+    --border-transparent: .1 solid var(--color-transparent);
 }
 
 * {
@@ -107,7 +107,7 @@ min-height: 100vh;
 /**********************
 ***Background Colors ***
 ***********************/
-.bg-primary, .btn.primary { background-color: var(--color-primary);}
+.bg-primary, .btn-primary { background-color: var(--color-primary);}
 .bg-secondary {background-color: var(--color-secondary);}
 .bg-success, .btn-secondary {background-color: var(--color-success);}
 .bg-info, .btn-info { background-color: var(--color-info);}
