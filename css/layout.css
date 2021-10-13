@@ -2,6 +2,7 @@
 *** Widths ***
 **************/
 .max-width {max-width: 192rem; }
+.card-width {max-width: 60rem; }
 
 /***************
 *** Position ***
@@ -24,23 +25,23 @@
 .m-6 { margin: var(--distance-6); }
 
 .mt-0, .my-0 {margin-top: var(--distance-0);} /* 0rem*/
-.mt-0, .my-0 {margin-bottom: var(--distance-0);} 
+.mb-0, .my-0 {margin-bottom: var(--distance-0);} 
 .mt-1, .my-1 {margin-top: var(--distance-1);} /* .25rem*/
-.mt-1, .my-1 {margin-bottom: var(--distance-1);} 
+.mb-1, .my-1 {margin-bottom: var(--distance-1);} 
 .mt-2, .my-2 {margin-top: var(--distance-2);} /* .5rem*/
-.mt-2, .my-2 {margin-bottom: var(--distance-2);} 
+.mb-2, .my-2 {margin-bottom: var(--distance-2);} 
 .mt-4, .my-4 {margin-top: var(--distance-4);} /* 1rem*/
-.mt-4, .my-4 {margin-bottom: var(--distance-4);} 
+.mb-4, .my-4 {margin-bottom: var(--distance-4);} 
 .mt-6, .my-6 {margin-top: var(--distance-6);} /* 1.5rem*/
-.mt-6, .my-6 {margin-bottom: var(--distance-6);} 
+.mb-6, .my-6 {margin-bottom: var(--distance-6);} 
 .mt-8, .my-8 {margin-top: var(--distance-8);} /* 2rem*/
-.mt-8, .my-8 {margin-bottom: var(--distance-8);} 
+.mb-8, .my-8 {margin-bottom: var(--distance-8);} 
 .mt-10, .my-10 {margin-top: var(--distance-10);} /* 2.5rem*/
-.mt-10, .my-10 {margin-bottom: var(--distance-10);} 
+.mb-10, .my-10 {margin-bottom: var(--distance-10);} 
 .mt-12, .my-12 {margin-top: var(--distance-12);} /* 3rem*/
-.mt-12, .my-12 {margin-bottom: var(--distance-12);} 
+.mb-12, .my-12 {margin-bottom: var(--distance-12);} 
 .mt-15, .my-15 {margin-top: var(--distance-15);} /* 4rem*/
-.mt-15, .my-15 {margin-bottom: var(--distance-15);} 
+.mb-15, .my-15 {margin-bottom: var(--distance-15);} 
 
 /* Ökar med 0.25 med varje steg*/
 
@@ -72,6 +73,7 @@
 .text-decoration-none {text-decoration: none; }
 .text-center { text-align: center; }
 .text-uppercase { text-transform: uppercase; }
+.text-bold {font-weight: bold;}
 
 .text-size-xxs {font-size: var(--display-xxs); }
 .text-size-xs {font-size: var(--display-xs); }
@@ -90,7 +92,7 @@
 *** Circle ***
 *************/
 .circle { border-radius: 100%; }
-.circle { width: 15rem; height: 15rem; }
+.circle-lg { width: 15rem; height: 15rem; }
 
 /**************
 *** Shadows ***
@@ -111,7 +113,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12); }
 /*************
 *** Borders ***
 **************/
-.borders-radius {border-radius: var(--border-radius-sm); }
+.border-radius {border-radius: var(--border-radius-sm); }
 .border-small-white {border: var(--border-xs-white); }
 .border.bottom-xs { border-bottom: var(--border-xs); }
 .border-sm { border: var(--border-sm); }
@@ -126,6 +128,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12); }
 *** Images ***
 *************/
 .logo-width { max-width: 13rem;}
+.img-lg-width { max-width: 60%;}
 
 /****************
 *** Slideshow ***
